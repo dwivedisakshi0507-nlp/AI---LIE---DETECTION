@@ -41,11 +41,19 @@ Scikit-learn (machine learning algorithms)
 
 TextBlob (text analysis)
 
-AI-Lie-Detection/
+AI-Lie-Detection
 
- app.py                # Main Streamlit app
+
+ app.py              # Main Streamlit app
+ 
  model.pkl            # Trained ML model
+
+ 
  requirements.txt     # Dependencies
+
+ 
  README.md            # Project documentation
+
+ 
  sample_audio/        # Test audio files
 
