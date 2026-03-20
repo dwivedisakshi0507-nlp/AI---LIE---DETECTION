@@ -1,2 +1,2 @@
-# AI---LIE---DETECTION
+# AI-LIE-DETECTION
 Lie Detection using Voice + Text ML
