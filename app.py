@@ -39,15 +39,15 @@ if audio_file is not None:
         blob = TextBlob(text)
         sentiment = blob.sentiment.polarity
 
-        st.subheader("📊 Sentiment Score:")
+        st.subheader("Sentiment Score:")
         st.write(sentiment)
 
         if sentiment > 0:
-            st.success("Positive 😊")
+            st.success("Positive ")
         elif sentiment < 0:
-            st.error("Negative 😠")
+            st.error("Negative ")
         else:
-            st.info("Neutral 😐")
+            st.info("Neutral ")
         y, sr_rate = librosa.load(temp_audio_path)
         mfcc = np.mean(librosa.feature.mfcc(y=y, sr=sr_rate))
 
